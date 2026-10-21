@@ -1,0 +1,14 @@
+zh_CN:
+  theme_metadata:
+    description: "根据用户和被举报者身份，在举报弹窗中隐藏指定的举报类型"
+    settings:
+      own_posts_hidden_flag_types:
+        description: >
+          举报自己的帖子时隐藏的举报类型。留空表示不隐藏任何类型。
+          内置类型（spam, off_topic, inappropriate, notify_user,
+          notify_moderators, illegal）可直接从下拉列表中选择；
+          也可以手动输入后台「管理 → 举报」页面中自定义举报类型的标识或名称。
+      other_posts_hidden_flag_types:
+        description: >
+          举报他人的帖子时隐藏的举报类型。留空表示不隐藏任何类型。
+          填写方式与上一项相同。

@@ -1,0 +1,14 @@
+en:
+  theme_metadata:
+    description: "Hide selected flag types in the flag modal based on the current user and the flagged user"
+    settings:
+      own_posts_hidden_flag_types:
+        description: >
+          Flag types hidden when flagging your own post. Leave empty to hide nothing.
+          Built-in types (spam, off_topic, inappropriate, notify_user,
+          notify_moderators, illegal) can be picked from the dropdown; you can
+          also type the identifier or name of a custom flag from Admin → Flags.
+      other_posts_hidden_flag_types:
+        description: >
+          Flag types hidden when flagging someone else's post. Leave empty to hide nothing.
+          Same format as the setting above.

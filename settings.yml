@@ -1,0 +1,9 @@
+own_posts_hidden_flag_types:
+  type: list
+  list_type: compact
+  default: ""
+
+other_posts_hidden_flag_types:
+  type: list
+  list_type: compact
+  default: ""
